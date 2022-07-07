@@ -1,65 +1,67 @@
 <template>
-	<div
-		class="fixed flex justify-between items-center gap-5 px-4 py-2 mt-4 md:mt-6 rounded-md bg-white/60 dark:bg-[#12181d] border border-gray-800 backdrop-blur-lg"
-	>
-		<div class="flex flex-row items-center justify-between gap-1">
-			<DarkModeToggleVue />
-		</div>
-		<div class="flex flex-row items-center justify-between">
-			<NuxtLink
-				class="bg-transparent hover:bg-gray-700/5 dark:hover:bg-[#c8c8dc]/5 dark:text-white cursor-pointer px-4 py-2 text-sm rounded-md text-black/80 hover:text-black dark:text-white/80 dark:hover:text-white transition-all duration-75"
-				to="/"
-				>Home</NuxtLink
-			>
-			<NuxtLink
-				class="bg-transparent hover:bg-gray-700/5 dark:hover:bg-[#c8c8dc]/5 dark:text-white cursor-pointer px-4 py-2 text-sm rounded-md text-black/80 hover:text-black dark:text-white/80 dark:hover:text-white transition-all duration-75"
-				to="/contact"
-				>Contact</NuxtLink
-			>
-		</div>
+  <div
+    class="fixed flex flex-row justify-between items-center gap-5 px-4 py-2 mt-4 md:mt-6 rounded-md bg-white dark:bg-[#12181d] border border-gray-800 backdrop-blur-lg"
+  >
+    <div class="flex flex-row items-center justify-between gap-2">
+      <DarkModeToggleVue />
+      <NuxtLink
+        class="bg-transparent hover:bg-gray-700/5 dark:hover:bg-[#c8c8dc]/5 dark:text-white cursor-pointer px-4 py-2 text-sm rounded-md text-black/80 hover:text-black dark:text-white/80 dark:hover:text-white transition-all duration-75"
+        to="/"
+        >Home</NuxtLink
+      >
+      <NuxtLink
+        class="bg-transparent hover:bg-gray-700/5 dark:hover:bg-[#c8c8dc]/5 dark:text-white cursor-pointer px-4 py-2 text-sm rounded-md text-black/80 hover:text-black dark:text-white/80 dark:hover:text-white transition-all duration-75"
+        to="/contact"
+        >Contact</NuxtLink
+      >
+    </div>
 
-		<div class="flex flex-row items-center justify-between gap-2">
-			<a
-				target="_blank"
-				href="mailto:contact@kozou.dev"
-				class="p-2 rounded-md bg-transparent hover:bg-black/5 dark:hover:bg-white/5 cursor-pointer"
-			>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-6 w-6"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-				>
-					<path
-						d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-					/>
-					<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-				</svg>
-			</a>
-			<a
-				target="_blank"
-				href="https://github.com/kozou4ever"
-				class="p-2 rounded-md bg-transparent hover:bg-black/5 dark:hover:bg-white/5 cursor-pointer"
-				><svg
-					fill="currentColor"
-					viewBox="0 0 24 24"
-					class="w-6 h-6"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<title></title>
-					<path
-						d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-					></path></svg
-			></a>
-		</div>
-	</div>
+    <div class="flex flex-row items-center justify-between gap-2">
+      <a
+        target="_blank"
+        href="mailto:contact@kozou.dev"
+        class="p-2 rounded-md bg-transparent hover:bg-black/5 dark:hover:bg-white/5 cursor-pointer"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+        </svg>
+      </a>
+      <a
+        target="_blank"
+        href="https://github.com/kozou4ever"
+        class="p-2 rounded-md bg-transparent hover:bg-black/5 dark:hover:bg-white/5 cursor-pointer"
+        ><svg
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          class="w-6 h-6"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title></title>
+          <path
+            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+          ></path></svg
+      ></a>
+    </div>
+  </div>
 </template>
 
 <script>
-import DarkModeToggleVue from "./DarkModeToggle.vue";
+import DarkModeToggleVue from './DarkModeToggle.vue'
 
 export default {
-	name: "HeaderComponent",
-	components: { DarkModeToggleVue },
-};
+  name: 'HeaderComponent',
+  components: { DarkModeToggleVue }
+}
 </script>
+
+<style>
+.nuxt-link-active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+</style>

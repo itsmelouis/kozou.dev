@@ -1,15 +1,15 @@
 <template>
-	<div class="transition" :class="dark ? 'dark' : 'light'">
-		<Nuxt />
-	</div>
+  <div class="transition" :class="dark ? 'dark' : 'light'">
+    <Nuxt />
+  </div>
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex'
 
 export default {
-	computed: {
-		...mapGetters(["dark"]),
-	},
-};
+  computed: {
+    ...mapGetters(['dark'])
+  }
+}
 </script>
