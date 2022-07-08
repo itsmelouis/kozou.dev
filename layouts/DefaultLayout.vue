@@ -1,5 +1,5 @@
 <template>
-  <div class="transition" :class="dark ? 'dark' : 'light'">
+  <div>
     <Nuxt />
   </div>
 </template>
