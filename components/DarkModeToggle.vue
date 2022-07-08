@@ -32,6 +32,7 @@
 import { mapGetters, mapMutations } from 'vuex'
 
 export default {
+  name: 'DarkModeToggle',
   computed: {
     ...mapGetters(['dark'])
   },
