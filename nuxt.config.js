@@ -12,7 +12,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -25,17 +25,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxt/postcss8'
   ],
-
-  tailwindcss: {
-    jit: true,
-    exposeConfig: true
-  },
-  colorMode: {
-    classSuffix: ''
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -67,9 +58,16 @@ export default {
   },
 
   router: {
-    linkExactActiveClass: 'bg-red' // tailwind class with custom color
+    linkActiveClass: 'bg-black/10 dark:bg-[#c8c8dc]/10'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {}
+      }
+    }
+  }
 }
