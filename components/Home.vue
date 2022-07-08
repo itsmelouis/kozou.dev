@@ -5,9 +5,17 @@
     <Header />
     <div class="mt-32 w-[80%] md:w-[45rem] transition ease-in-out delay-150">
       <div>
-        <h1 class="mb-6 text-5xl font-extrabold">Hiya, I'm Kozou!</h1>
+        <h1 class="mt-18 font-bold text-4xl md:text-5xl mb-4">Hiya, I'm Kozou!</h1>
         <p class="text-gray-800 dark:text-gray-300 leading-relaxed tracking-wide mb-12">
-          I'm a french student in web development
+          I'm a french student in IT. I'm currently studying in a BTS SIO in order to proudly become
+          a full-stack web developer. I've been studied for 1 year now and I still have so much to
+          learn!
+        </p>
+      </div>
+      <div>
+        <h2 class="font-medium text-3xl mb-4">Technologies</h2>
+        <p class="text-gray-800 dark:text-gray-300 leading-relaxed tracking-wide">
+          I barely know few languages but fair enough to build a simple and friendly web site.
         </p>
       </div>
       <GitHubCardVue />
