@@ -1,5 +1,5 @@
 <template>
-  <div class="transition duration-200 trans" :class="dark ? 'dark' : 'light'">
+  <div :class="dark ? 'dark' : 'light'">
     <HomePage />
   </div>
 </template>
