@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col p-4 bg-white/10 dark:bg-black/10 rounded-md border max-w-[50%] h-auto border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600 transition-colors duration-75 cursor-pointer"
+    class="flex flex-col p-4 bg-white/10 dark:bg-black/10 rounded-md border max-w-[50%] h-auto border-slate-400 hover:border-slate-700 dark:border-slate-800 dark:hover:border-slate-600 cursor-pointer"
   >
     <a :href="link" target="_blank"
       ><h1 class="font-semibold mb-1">{{ title }}</h1>
