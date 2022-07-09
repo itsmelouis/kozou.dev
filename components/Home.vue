@@ -1,6 +1,7 @@
 <template>
   <div
-    class="transition-all duration-200 text-black dark:text-white flex flex-row justify-center w-full h-full bg-gradient-to-bl from-white to-[#fff] dark:from-black dark:to-[#0d131f] min-h-screen">
+    class="transition-all duration-200 text-black dark:text-white flex flex-row justify-center w-full h-full bg-gradient-to-bl from-white to-[#fff] dark:from-black dark:to-[#0d131f] min-h-screen"
+  >
     <Header />
     <div class="mt-32 w-[80%] md:w-[45rem]">
       <div>
@@ -27,9 +28,12 @@
       </div>
       <div>
         <h2 class="font-medium text-3xl mb-4">Jobs 🧑‍🔧</h2>
-        <CardPositionVue link="https://premid.app/" title="PreMiD"
+        <CardPositionVue
+          link="https://premid.app/"
+          title="PreMiD"
           description="PreMiD is a simple, configurable utility that allows you to show what you're doing on the web in your Discord now playing status."
-          position="Technical Support - Moderator" />
+          position="Technical Support - Moderator"
+        />
       </div>
       <FooterPageVue />
     </div>
