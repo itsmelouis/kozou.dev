@@ -13,6 +13,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/no-multiple-template-root': 'off',
-    'no-console': 'off'
+    'no-console': 'off',
+    'vue/first-attribute-linebreak': 'off'
   }
 }
