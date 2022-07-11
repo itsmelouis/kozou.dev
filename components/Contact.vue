@@ -1,21 +1,21 @@
 <template>
   <div
-    class="flex flex-row justify-center w-full h-full min-h-screen text-black dark:text-white bg-white dark:bg-[#12181d]"
-  >
+    class="text-black dark:text-white flex flex-row justify-center w-full h-full bg-gradient-to-bl from-white to-[#fff] dark:from-black dark:to-[#0d131f] min-h-screen">
     <Header />
-    <div class="mt-24 dark:bg-[#12181d]">
-      <h1 class="mb-6 text-3xl font-extrabold">Contact</h1>
+    <div class="mt-32 w-[80%] md:w-[45rem] ease-out duration-300">
+      <h1 class="font-bold text-4xl md:text-5xl">Contact</h1>
+
     </div>
   </div>
 </template>
 
-<script>
-import Header from './Header.vue'
+      <script>
+      import Header from './Header.vue'
 
-export default {
-  name: 'ContactView',
-  components: {
-    Header
-  }
-}
-</script>
+      export default {
+        name: 'ContactView',
+        components: {
+          Header
+        }
+      }
+      </script>

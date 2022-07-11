@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="flex flex-row justify-center w-full h-full min-h-screen text-black dark:text-white bg-white dark:bg-gray-900"
-    :class="dark ? 'dark' : 'light'"
-  >
+  <div :class="dark ? 'dark' : 'light'">
     <ContactVue />
   </div>
 </template>
