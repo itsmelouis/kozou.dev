@@ -1,15 +1,12 @@
 <template>
-  <div>
-  </div>
+  <div></div>
 </template>
 
 <script>
 export default {
   name: 'ToosList',
-  components: {
-  }
+  components: {}
 }
 </script>
 
-<style>
-</style>
+<style></style>
