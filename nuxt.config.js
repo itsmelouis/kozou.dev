@@ -52,7 +52,7 @@ export default {
   },
 
   router: {
-    linkActiveClass: 'bg-black/10 dark:bg-[#c8c8dc]/10'
+    linkExactActiveClass: 'bg-black/10 dark:bg-[#c8c8dc]/10'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
