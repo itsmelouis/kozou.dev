@@ -42,6 +42,12 @@ export default {
     '@nuxtjs/pwa'
   ],
 
+  loading: {
+    color: '#58a6ff',
+    height: '2px',
+    throttle: 0
+  },
+
   serverMiddleware: ['~/middleware/redirects.js'],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
