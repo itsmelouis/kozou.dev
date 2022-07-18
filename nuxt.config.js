@@ -20,7 +20,8 @@ export default {
     {
       src: '@/plugins/VueLanyard',
       mode: 'client'
-    }
+    },
+    '@/plugins/vue-tooltip.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -30,6 +31,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/composition-api/module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8'
   ],
@@ -45,6 +47,7 @@ export default {
   loading: {
     color: '#58a6ff',
     height: '2px',
+    duration: 800,
     throttle: 0
   },
 
@@ -74,6 +77,7 @@ export default {
         tailwindcss: {},
         autoprefixer: {}
       }
-    }
+    },
+    transpile: ['oh-vue-icons']
   }
 }
