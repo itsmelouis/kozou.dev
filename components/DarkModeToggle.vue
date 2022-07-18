@@ -56,7 +56,6 @@ export default {
     toggleDarkMode() {
       this.SET_DARK(!this.dark)
       localStorage.theme = this.dark ? 'dark' : 'light'
-      console.log(localStorage.theme)
     }
   }
 }

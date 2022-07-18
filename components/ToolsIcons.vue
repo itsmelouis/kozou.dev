@@ -1,7 +1,7 @@
 <template>
   <div
-    class="w-full flex flex-wrap flex-row justify-center p-0.5 border border-slate-800 rounded-md bg-white/10 dark:bg-black/10 mb-12">
-
+    class="w-full flex flex-wrap flex-row justify-center p-0.5 border border-slate-800 rounded-md bg-white/10 dark:bg-black/10 mb-12"
+  >
     <li class="flex p-1.5">
       <div v-tooltip="{ content: 'TypeScript', classes: 'a' }">
         <v-icon class="flex p-2" name="co-typescript" scale="2.5" />
@@ -85,21 +85,49 @@
         <v-icon class="flex p-2" name="co-mysql" scale="2.5" />
       </div>
     </li>
-
-
   </div>
 </template>
 
 <script>
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
-import { CoTypescript, CoJavascript, CoNpm, CoYarn, CoPhp, BiGit, CoVisualStudioCode, FaNodeJs, SiInsomnia, SiTailwindcss, CoNuxtJs, CoVueJs, CoAngular, CoMysql } from "oh-vue-icons/icons"
+import {
+  CoTypescript,
+  CoJavascript,
+  CoNpm,
+  CoYarn,
+  CoPhp,
+  BiGit,
+  CoVisualStudioCode,
+  FaNodeJs,
+  SiInsomnia,
+  SiTailwindcss,
+  CoNuxtJs,
+  CoVueJs,
+  CoAngular,
+  CoMysql
+} from 'oh-vue-icons/icons'
 
-addIcons(CoTypescript, CoJavascript, CoNpm, CoYarn, CoPhp, BiGit, CoVisualStudioCode, FaNodeJs, SiInsomnia, SiTailwindcss, CoNuxtJs, CoVueJs, CoAngular, CoMysql)
+addIcons(
+  CoTypescript,
+  CoJavascript,
+  CoNpm,
+  CoYarn,
+  CoPhp,
+  BiGit,
+  CoVisualStudioCode,
+  FaNodeJs,
+  SiInsomnia,
+  SiTailwindcss,
+  CoNuxtJs,
+  CoVueJs,
+  CoAngular,
+  CoMysql
+)
 
 export default {
   name: 'ToolsIcons',
   components: {
-    "v-icon": OhVueIcon
+    'v-icon': OhVueIcon
   }
 }
 </script>
