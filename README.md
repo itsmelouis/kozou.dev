@@ -1,68 +1,33 @@
-# kozou.dev
+# 🌍 kozou.dev
 
-## Build Setup
+This is the repo for my personal portoflio website available [here](https://kozou.dev)!
 
-```bash
-# install dependencies
-$ yarn install
+## ✨ Tools
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+This website was created using Nuxt 2 and its built-in framework, Vue. I choose the TailwindCSS framework for the style.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+<div align="center" style="display: flex; flex-direction: row; 
+flex-wrap: wrap; justify-content: center; padding:2px; border-color: #1e293b"; border-radius: 5px;>
+<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />
+<img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" />
+<img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg" />
+</div>
 
-# generate static project
-$ yarn generate
-```
+## 💡 Contributing
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+You noticed a mistake, sloppy programming, or just a bug? If you feel up to it, you are welcome to submit a pull request or a new issue form.
 
-## Special Directories
+Steps for contributing to the project:
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+1. Clone the repo `git clone https://github.com/kozou4ever/kozou.dev.git`
+2. Install dependemcies `yarn install`
+3. Run a dev environement `yarn dev`
+4. Code completed? Before submitting any pull requests, don't forget to run the following command `yarn format`!
 
-### `assets`
+_Do you use conventional commits?_
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+Yes. I'm attempting to adjust, therefore I recommend that you do the same while committing
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## 🙏Thanks
 
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+I'm truly thankful to [Cnrad](https://github.com/cnrad) for letting me adapt the design of his own website! Which you can find just [here](https://cnrad.dev) 😀
