@@ -19,8 +19,8 @@ You noticed a mistake, sloppy programming, or just a bug? If you feel up to it, 
 
 Steps for contributing to the project:
 
-1. Clone the repo `git clone https://github.com/kozou4ever/kozou.dev.git`
-2. Install dependemcies `yarn install`
+1. Fork and clone the repo `git clone https://github.com/kozou4ever/kozou.dev.git`
+2. Install dependencies `yarn install`
 3. Run a dev environement `yarn dev`
 4. Code completed? Before submitting any pull requests, don't forget to run the following command `yarn format`!
 
