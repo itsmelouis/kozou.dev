@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed flex flex-row justify-between items-center gap-5 px-4 py-2 mt-4 md:mt-6 rounded-md bg-white/60 dark:bg-[#12181d]/60 border border-gray-800 backdrop-blur-lg w-10/12 md:w-2/5"
+    class="fixed flex flex-row justify-between items-center gap-5 px-4 py-2 mt-4 md:mt-6 rounded-md bg-white/60 dark:bg-[#12181d]/60 border border-gray-800 backdrop-blur-lg w-10/12 md:w-2/5 z-50"
   >
     <div class="flex flex-row items-center justify-between gap-2">
       <DarkModeToggleVue />
